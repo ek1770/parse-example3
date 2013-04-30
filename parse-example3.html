@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Parse-example3</title>
+  <script src="http://www.parsecdn.com/js/parse-1.2.7.min.js"></script>
+  <script src="jquery-1.9.1.min.js"></script>
+  <script src="parse-example3.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="parse-example3.css">
+
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="top-wrapper">
+      <h1>EMPLOYEE LIST</h1>
+    </div>
+
+    <div class="column-input-name">
+      <br>
+      <h2>Add someone to the database!</h2>
+      <input class="human-first-name" placeholder="First name"></input>
+      <br>
+      <input class="human-last-name" placeholder="Last name"></input>
+      <br>
+      <br>
+      <input type="radio" class="gender" name="gender" value="Male">Male</toggle>
+      <input type="radio" class="gender" name="gender" value="Female">Female</toggle>
+      <br>
+      <br>
+      <button class="button-save">Save</button>
+      <br>
+      <button class="button-list">Or checkout the list of people</button>  
+
+    </div>
+
+
+    <div class="column-name-list">
+      <br>
+      <h2>List of names</h2>
+      <div class="retrieve-names">
+      <ul></ul>
+      </div>
+    </div>  
+
+    <div class="column-single-name">
+      <br>
+      <h2>Single name</h2>
+
+
+      <ul></ul>
+    </div>
+
+
+
+
+    </div>
+  </div>
+
+</body>
+</html>

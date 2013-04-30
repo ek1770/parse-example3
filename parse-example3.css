@@ -1,0 +1,35 @@
+body {
+  background-color: solid gray;
+  color: rgb(45, 45, 45);
+  font-family: sans-serif;
+}
+
+.wrapper {
+  background-color: solid gray;
+  width: 960px;
+}
+
+.top-wrapper {
+  border-bottom: solid rgb(105, 105, 105);
+  width: 800px;
+  margin: 0 auto;
+}
+
+.column-input-name {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.column-name-list {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.column-single-name {
+  width: 800px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
